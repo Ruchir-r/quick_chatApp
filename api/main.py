@@ -23,7 +23,7 @@ app = FastAPI()
 # CORS for local dev
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # your frontend URL
+    allow_origins=["https://quick-chat-app-oq7b.vercel.app"],  # your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
